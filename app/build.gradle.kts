@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.myrestapp_tommasopignatta"
     compileSdk = 35
-
+    dependencies {
+        implementation("androidx.webkit:webkit:1.8.0")
+    }
     defaultConfig {
         applicationId = "com.example.myrestapp_tommasopignatta"
         minSdk = 27
